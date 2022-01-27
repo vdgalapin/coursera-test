@@ -1,0 +1,56 @@
+h1 {
+  margin: 15px 0px 15px 0px;
+  text-align: center;
+}
+
+/* Browser View <= 992px */
+@media (min-width: 992px) {
+	div > .section {
+		float: left;
+		width: 31.33%;
+
+	}
+}
+
+/* Tablet View  768px <= x <= 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+	div > .section {
+		float: left;
+		width: 48%;
+	}
+	div > .section2 {
+		float: left;
+		width: 98%;	
+	}
+}
+
+/* Mobile View >= 767px */ 
+@media (max-width: 767px) {
+	div > .section {
+		float: left;
+		width: 98%;
+	}
+}
+
+div > .section {
+	border: 3px solid black;
+	position: relative;
+	padding: 30px;
+	margin: 1%;
+	height:  180px;
+	color: white;
+	box-sizing: border-box;
+}
+
+.section > .title { 
+	text-align: center;
+	font-weight: bold; 
+	font-size: 24px;
+	position:  absolute; 	
+	top:  -3px;
+	right: -3px;
+	background-color: green; 
+	width: 100px;
+	border: 3px solid black;
+}
+
