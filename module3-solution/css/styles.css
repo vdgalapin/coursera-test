@@ -1,0 +1,57 @@
+/** HEADER **/
+#header-nav {
+  background-color: #eca709;
+  border-radius: 0;
+  border: 0;
+}
+
+/** Company Name **/
+#header-nav a h3 {
+  font-weight: bold;
+}
+.navbar-header a {
+  text-decoration: none;
+  color: black;
+}
+
+/** Navigation List **/
+#nav-list li { 
+  padding-top: 10px; 
+}
+#nav-list li a:hover { 
+  background: #E7E7E7; 
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+}
+#nav-list li a {
+  color: black;
+  text-align: center;
+  font-size: 1.0em;
+  font-weight: bold;
+}
+#nav-list {
+  background-color: #F8C349;
+  margin:  0px -15px 0px -15px;
+}
+
+/** Button **/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button {
+  margin-top: 15px;
+}
+
+/** Menu **/
+#menu .menu-item .menu-title, #menu .menu-item .menu-details {
+  margin: 0% 1%;
+  background-color: #eca709;
+  padding: 5px 15px 0px 15px;
+}
+
+#menu .menu-item .menu-title {
+  font-weight: bold;
+}
+
+#menu .menu-item {
+  margin-bottom: 15px;
+}
